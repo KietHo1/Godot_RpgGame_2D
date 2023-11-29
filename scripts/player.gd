@@ -45,6 +45,7 @@ func play_anim(movement):
 		anim.flip_h = false
 		if movement == 1:
 			anim.play("side_walk")
+			anim.flip_h = false
 		elif movement == 0:
 			anim.play("side_idle")
 	
@@ -52,6 +53,7 @@ func play_anim(movement):
 		anim.flip_h = false
 		if movement == 1:
 			anim.play("side_walk")
+			anim.flip_h = true
 		elif movement == 0:
 			anim.play("side_idle")
 	
